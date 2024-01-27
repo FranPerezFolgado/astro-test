@@ -1,0 +1,19 @@
+---
+import Social from './Social.astro';
+const platform = "github";
+const github_username = "FranPerezFolgado";
+const twitter_username = "fp__code";
+---
+
+<style>
+    footer {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+</style>
+<footer class="social-links">
+    <Social platform="twitter" username="fp__code"/>
+    <Social platform="github" username="FranPerezFolgado"/>
+    <Social platform="linkedin" username="/in/franperezfolgado" />
+</footer>
